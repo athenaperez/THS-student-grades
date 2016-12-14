@@ -35,4 +35,4 @@ console.log("There are " + D + " 'D' grades")
 console.log("There are " + F + " 'A' grades")
 
 console.log("The lowest grade is " + array.sort()[0] + ".");
-console.log("The highest grade is " + array.sort() + ".");
+console.log("The highest grade is " + array.sort()[array.length - 1] + ".");
